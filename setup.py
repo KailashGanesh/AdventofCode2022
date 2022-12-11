@@ -38,5 +38,3 @@ else:
     os.mkdir(target_dir) # make a dir using user input
     shutil.copyfile('./template.py', target_dir + f'/{sys.argv[1]}.py') # copying over template.py with new file name
     get_input(url, cookie[0],target_dir)
-
-
