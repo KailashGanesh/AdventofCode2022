@@ -104,6 +104,8 @@ def part_two():
             dict[from_list].reverse()
             dict[from_list].remove(x)
             dict[from_list].reverse()
+
+            # dict[from_list] = dict[from_list][0:len(dict[from_list]) - int(no_of)]
             dict[to_list].append(x)
 
 
@@ -126,5 +128,6 @@ print(no_letters)
 
 
 #first answer = TGWSMRBPN
+# secound anser = TZLTLWRNF
 
-# not answer ZCMJLZBNP
+# secound not answer ZCMJLZBNP
